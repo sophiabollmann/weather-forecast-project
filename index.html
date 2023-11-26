@@ -3,10 +3,61 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather Forescast Project</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>My weather application</title>
   </head>
   <body>
-    <script src="script.js"></script>
+    <div class="weatherWebsite">
+      <header>
+        <form id="search-form">
+          <input
+            id="search-input"
+            type="search"
+            placeholder="Enter a city.."
+            required
+            class="searchBar"
+          />
+          <input type="submit" value="Search" class="button" />
+        </form>
+      </header>
+      <main>
+        <div class="currentWeather">
+          <span>
+            <h1>Paris</h1>
+            <p>
+              <span id="current-date"> Saturday 15:32 </span>, moderate rain
+              <br />
+              Humidity: <strong class="atribute">87%</strong>, Wind:
+              <strong class="atribute">7.2km/h</strong>
+            </p>
+          </span>
+          <span class="currentTemperature"
+            ><strong>
+              <span class="temperatureEmoji"> ☀️ </span> 24
+              <span class="temperatureUnit">°C </span>
+            </strong></span
+          >
+        </div>
+      </main>
+      <footer>
+        <p>
+          This project was coded by
+          <a href="#" target="_blank" class="hiperlink">Sophia Bollmann</a> and
+          is <a href="#" target="_blank" class="hiperlink"> on GitHub</a> and
+          <a href="#" target="_blank" class="hiperlink">hosted on Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
   </body>
 </html>

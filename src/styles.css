@@ -1,0 +1,91 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #f9f7fd;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 25px;
+}
+
+h1 {
+  font-size: 38px;
+}
+
+main {
+  border-top: 1px solid #f9f7fd;
+  border-bottom: 1px solid #f9f7fd;
+  padding: 30px 0;
+}
+
+main p {
+  color: #a8a6b4;
+}
+
+footer {
+  color: #a8a6b4;
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.weatherWebsite {
+  margin: 60px auto;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+  padding-right: 30px;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 600px;
+}
+.searchBar {
+  border: transparent;
+  background-color: #f9f7fd;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 20px;
+  padding-right: 15px;
+  width: 450px;
+}
+
+.button {
+  color: white;
+  background-color: #885df1;
+  border: transparent;
+  border-radius: 4px;
+  font-size: 16px;
+  padding: 20px;
+}
+
+.currentWeather {
+  display: flex;
+  justify-content: space-between;
+}
+
+.temperatureEmoji {
+  position: relative;
+  top: -8px;
+  font-size: 40px;
+  margin-right: 10px;
+}
+
+.temperatureUnit {
+  font-size: 28px;
+  position: relative;
+  top: -38px;
+}
+
+.atribute {
+  color: #f65281;
+}
+
+.currentTemperature {
+  font-size: 80px;
+}
+
+.hiperlink {
+  color: #885df1;
+}
